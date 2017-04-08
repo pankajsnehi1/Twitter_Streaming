@@ -21,7 +21,7 @@ if (not api):
     sys.exit(-1)
 
 # creating a folder to store tweets for a specific day
-path_for_folder = r'/Users/Pankaj/PycharmProjects/untitled/tweets_from_01-Apr'
+path_for_folder = r'/Users/Pankaj/PycharmProjects/untitled/tweets_from_07-Apr'
 
 # to remove retweets ensuring our data has unique tweets
 retweet_filter='-filter:retweets'
@@ -71,8 +71,8 @@ for row in reader:
                         break
                     for tweet in new_tweets:
                         print(tweet.created_at)
-                        if (tweet.created_at > datetime.datetime(2017, 4, 1, 00, 00, 00) and
-                                    tweet.created_at < datetime.datetime(2017, 4, 1, 23, 59, 59)):
+                        if (tweet.created_at > datetime.datetime(2017, 4, 7, 00, 00, 00) and
+                                    tweet.created_at < datetime.datetime(2017, 4, 7, 23, 59, 59)):
                             print('Writing the tweet from', tweet.created_at)
                             f.write(json.loads(jsonpickle.encode(tweet._json, unpicklable=False))["text"] + '\n')
                     tweetCount += len(new_tweets)

@@ -5,76 +5,85 @@ from textblob import TextBlob
 from nltk.tokenize import WhitespaceTokenizer
 import re
 
-# path_for_folder = r'/Users/Pankaj/PycharmProjects/untitled/tweets_from_31-Mar'
+path_for_folder = r'/Users/Pankaj/PycharmProjects/untitled/tweets_from_06-Apr'
 
-'''with open('/Users/Pankaj/PycharmProjects/untitled/tweets_sentiment_scores_textblob/01-Apr_Final_Score.csv',
-          'w', newline='') as csv_file:
-    writer = csv.writer(csv_file)
-    if os.path.exists(path_for_folder):
-        for filename in glob.glob(os.path.join(path_for_folder, '*.txt')):'''
-
-filename = '/Users/Pankaj/PycharmProjects/untitled/spare_tweets/Tesco_tweets.txt'
+sentiment_score_dict_one = {}
+sentiment_score_dict_two = {}
+sentiment_score_dict_three = {}
 
 #  to store final sentiment score for a company
-final_score = 0
+if os.path.exists(path_for_folder):
+        for filename in glob.glob(os.path.join(path_for_folder, '*.txt')):
 
-# if file size is 0 then add name and score
-'''if (not os.path.getsize(filename)):
+            final_score = 0
+            positive_score = 0
+            negative_score = 0
+            neutral_score = 0
 
-    # writing the score with name of the company
-    #writer.writerow([filename[58:-11],final_score])
-else:'''
-file = open(filename, 'r')
+            file = open(filename, 'r')
 
-# initialising the tokensier
+            # initialising the tokensier
+            ws_tok = WhitespaceTokenizer()
+            for line in (file.readlines()):
 
-positive_score=0
-negative_score=0
-neutral_score=0
+                # removing links from the text
+                line = re.sub(r"http\S+", "", line)
+                text = TextBlob(line)
 
-for line in (file.readlines()):
+                # correcting the spellings, been commented as it takes very long
+                # line = str(text.correct())
 
-    # removing links from the text
-    line = re.sub(r"http\S+", "", line)
-    text = TextBlob(line)
+                # lemmatisation
+                for word in (text.words):
+                    word.lemmatize()
 
-    # lemmatisation
-    for word in (text.words):
-        word.lemmatize()
+                scores = 0
 
-    scores = 0
+                scores = text.sentiment.polarity
 
+                if (scores > 0):
+                    positive_score += scores
 
-    scores = text.sentiment.polarity
-    print(scores)
+                elif (scores < 0):
+                    negative_score += scores
 
-    if (scores > 0):
-        positive_score += scores
+                else:
+                    neutral_score += scores
 
-    elif (scores < 0):
-        negative_score += scores
+                final_score += scores
 
-    else:
-        neutral_score += scores
+            try:
 
-    final_score += scores
+                senti_score_one = positive_score / final_score
+                senti_score_two = positive_score / (positive_score + negative_score)
+                senti_score_three = positive_score - negative_score / final_score
 
+                sentiment_score_dict_one[filename[58:-11]] = senti_score_one
+                sentiment_score_dict_two[filename[58:-11]] = senti_score_two
+                sentiment_score_dict_three[filename[58:-11]] = senti_score_three
 
-print("Positive sentiment: ", positive_score)
+            # error occurs when file is empty, assigning that file to 0
+            except ZeroDivisionError:
 
-print("Negative sentiment: ", negative_score)
+                sentiment_score_dict_one[filename[58:-11]] = 0
+                sentiment_score_dict_two[filename[58:-11]] = 0
+                sentiment_score_dict_three[filename[58:-11]] = 0
 
-print("Neutral sentiment: ", neutral_score)
+with open('/Users/Pankaj/PycharmProjects/untitled/tweets_sentiment_scores_textblob/'
+          'sentiment_score_one_textblob/06-Apr_Final_Score.csv', 'wt') as csv_file:
+    writer = csv.writer(csv_file)
+    for key, value in sorted(sentiment_score_dict_one.items()):
+        writer.writerow([key, value])
 
+with open('/Users/Pankaj/PycharmProjects/untitled/tweets_sentiment_scores_textblob/'
+          'sentiment_score_two_textblob/06-Apr_Final_Score.csv', 'wt') as csv_file:
+    writer = csv.writer(csv_file)
+    for key, value in sorted(sentiment_score_dict_two.items()):
+        writer.writerow([key, value])
 
-
-senti_score_one = positive_score/final_score
-
-senti_score_two = positive_score/(positive_score+negative_score)
-
-senti_score_three = positive_score-negative_score/final_score
-
-print(senti_score_one, senti_score_two, senti_score_three)
-
-print("Final score for :", filename, final_score)
-                # writer.writerow([filename[58:-11], final_score])
+with open('/Users/Pankaj/PycharmProjects/untitled/tweets_sentiment_scores_textblob/'
+          'sentiment_score_three_textblob/06-Apr_Final_Score.csv',
+          'wt') as csv_file:
+    writer = csv.writer(csv_file)
+    for key, value in sorted(sentiment_score_dict_three.items()):
+        writer.writerow([key, value])
