@@ -71,7 +71,6 @@ def plot_normalised_graph(company_name, company_code, start_date, end_date):
         share_average = sum_of_share_prices / counter
         sentiment_average = sum_of_sentiment_scores / counter
         difference = share_average - sentiment_average
-        print (difference)
         for index, row in new_df.iterrows():
             new_df.set_value(index, 'Twitter Sentiment', row['Twitter Sentiment'] + difference)
     else:
@@ -87,4 +86,4 @@ def plot_normalised_graph(company_name, company_code, start_date, end_date):
 
 #plot_share_vs_sentiment('Aviva', 'AV.', '2017/03/14', '2017/04/06')
 
-plot_normalised_graph('Aviva', 'AV.', '2017/03/14', '2017/04/06')
+plot_normalised_graph('ITV', 'ITV', '2017/03/14', '2017/04/06')
