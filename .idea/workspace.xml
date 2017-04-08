@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbff927d-3dbf-4e6c-811e-2f0142b0a679" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_sentiment_scores_affinn/14-Mar_Final_Score.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_sentiment_scores_affinn/15-Mar_Final_Score.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_sentiment_scores_affinn/16-Mar_Final_Score.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_sentiment_scores_affinn/17-Mar_Final_Score.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_sentiment_scores_affinn/20-Mar_Final_Score.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_sentiment_scores_affinn/21-Mar_Final_Score.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_sentiment_scores_affinn/22-Mar_Final_Score.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_sentiment_scores_affinn/23-Mar_Final_Score.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_sentiment_scores_affinn/24-Mar_Final_Score.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_sentiment_scores_affinn/27-Mar_Final_Score.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_sentiment_scores_affinn/28-Mar_Final_Score.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_sentiment_scores_affinn/29-Mar_Final_Score.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_sentiment_scores_affinn/30-Mar_Final_Score.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_sentiment_scores_affinn/31-Mar_Final_Score.csv" afterPath="" />
+    <list default="true" id="bbff927d-3dbf-4e6c-811e-2f0142b0a679" name="Default" comment="Amended to calculate sentiment scores in 3 different ways and save them in csv files">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sentiment_analysis.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new_twitter.py" afterPath="$PROJECT_DIR$/new_twitter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sentiment_analysis.py" afterPath="$PROJECT_DIR$/sentiment_analysis.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sentiment_analysis_textblob.py" afterPath="$PROJECT_DIR$/sentiment_analysis_textblob.py" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,12 +62,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sentiment_analysis.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sentiment_analysis.py">
+      <file leaf-file-name="sentiment_analysis_affinn.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sentiment_analysis_affinn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="100" column="64" lean-forward="false" selection-start-line="100" selection-start-column="64" selection-end-line="100" selection-end-column="64" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sentiment_analysis_textblob.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sentiment_analysis_textblob.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sentiment_analysis_textblob.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="208">
+              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -570,6 +556,14 @@
       <option name="presentableId" value="Default" />
       <updated>1465638449540</updated>
     </task>
+    <task id="LOCAL-00001" summary="Amended to calculate sentiment scores in 3 different ways and save them in csv files">
+      <created>1491613134627</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1491613134627</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -638,6 +632,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Amended to calculate sentiment scores in 3 different ways and save them in csv files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Amended to calculate sentiment scores in 3 different ways and save them in csv files" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -659,7 +657,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Burberry Group_tweets.txt" />
     <entry file="file://$PROJECT_DIR$/final_companies_with_twitter_sc.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -884,14 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_twitter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="69" column="17" lean-forward="false" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/senti_eg_affinn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -918,19 +907,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentiment_analysis.py">
+    <entry file="file://$PROJECT_DIR$/sentiment_analysis_textblob.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="100" column="64" lean-forward="false" selection-start-line="100" selection-start-column="64" selection-end-line="100" selection-end-column="64" />
+        <state relative-caret-position="208">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentiment_analysis_textblob.py">
+    <entry file="file://$PROJECT_DIR$/sentiment_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_twitter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="69" column="17" lean-forward="false" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment_analysis_affinn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
