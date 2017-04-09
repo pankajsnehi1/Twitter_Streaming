@@ -9,6 +9,7 @@ import pandas as pd
 # for if all the company's graphs need returned
 # companies_code = csv.reader(open('companies_with_stock_code.csv', 'r'))
 
+# initiating a var for future use
 twitter_sentiment = 'Twitter Sentiment'
 
 # gets the share price given company's code, start date and end date
