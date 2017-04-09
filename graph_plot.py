@@ -1,6 +1,7 @@
 import glob
 import os
 import csv
+import math
 import pandas_datareader.data as web
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -8,6 +9,7 @@ import pandas as pd
 # for if all the company's graphs need returned
 # companies_code = csv.reader(open('companies_with_stock_code.csv', 'r'))
 
+twitter_sentiment = 'Twitter Sentiment'
 
 # gets the share price given company's code, start date and end date
 def get_share_price(company_code, start_date, end_date):
@@ -42,21 +44,21 @@ def get_senti_score(company_name):
     return senti_score
 
 
-# shows a simple graph for company's share price and twitter sentiment movement
+# shows a simple graph for company's share price against twitter sentiment movement, not normalised
 def plot_share_vs_sentiment(company_name, company_code, start_date, end_date):
 
     # df for the plot
     new_df = pd.DataFrame({company_name:get_share_price(company_code,start_date,end_date),
-                           'Twitter Sentiment': get_senti_score(company_name)})
+                           twitter_sentiment: get_senti_score(company_name)})
     new_df.plot()
     plt.show()
 
 
-# normalises the graphs should one has higher value than the other
-def plot_normalised_graph(company_name, company_code, start_date, end_date):
+# normalises the graphs should twitter sentiment or share prices has higher value than the other
+def normalised_graph_points(company_name, company_code, start_date, end_date):
     sentiment_score = get_senti_score(company_name)
     share_price = get_share_price(company_code, start_date, end_date)
-    new_df = pd.DataFrame({company_name: share_price, 'Twitter Sentiment': sentiment_score})
+    new_df = pd.DataFrame({company_name: share_price, twitter_sentiment: sentiment_score})
 
     sum_of_share_prices = 0
     sum_of_sentiment_scores = 0
@@ -64,7 +66,7 @@ def plot_normalised_graph(company_name, company_code, start_date, end_date):
 
     for index, row in new_df.iterrows():
         sum_of_share_prices += row[company_name]
-        sum_of_sentiment_scores += row['Twitter Sentiment']
+        sum_of_sentiment_scores += row[twitter_sentiment]
         counter = counter + 1
 
     if sum_of_share_prices > sum_of_sentiment_scores:
@@ -72,7 +74,7 @@ def plot_normalised_graph(company_name, company_code, start_date, end_date):
         sentiment_average = sum_of_sentiment_scores / counter
         difference = share_average - sentiment_average
         for index, row in new_df.iterrows():
-            new_df.set_value(index, 'Twitter Sentiment', row['Twitter Sentiment'] + difference)
+            new_df.set_value(index, twitter_sentiment, row[twitter_sentiment] + difference)
     else:
         sentiment_average = sum_of_sentiment_scores / counter
         share_average = sum_of_share_prices / counter
@@ -80,10 +82,35 @@ def plot_normalised_graph(company_name, company_code, start_date, end_date):
         for index, row in new_df.iterrows():
             new_df.set_value(index, company_name, row[company_name] + difference)
 
-    new_df.plot()
+    return new_df
+
+
+# uses the function above to get the df and put it on a graph
+def show_normalised_graph(company_name, company_code, start_date, end_date):
+
+    graph_df = normalised_graph_points(company_name, company_code, start_date, end_date)
+    graph_df.plot()
     plt.show()
 
 
-#plot_share_vs_sentiment('Aviva', 'AV.', '2017/03/14', '2017/04/06')
+def get_mean_squared_error(company_name, company_code, start_date, end_date):
 
-plot_normalised_graph('ITV', 'ITV', '2017/03/14', '2017/04/06')
+    graph_df = normalised_graph_points(company_name, company_code, start_date, end_date)
+
+    sum_of_difference = 0
+    counter = 0
+
+    for index, row in graph_df.iterrows():
+
+        # estimated_value - actual_value
+        diff = row[twitter_sentiment] - row[company_name]
+        # squaring the values to ensure the figures are positive
+        squared_diff = math.pow(diff, 2)
+        # summing the squares of differences
+        sum_of_difference += squared_diff
+        # to keep the number of observations which is the days we have data available for
+        counter = counter + 1
+
+    mse = math.sqrt(sum_of_difference/counter - 2)
+
+    print(mse)

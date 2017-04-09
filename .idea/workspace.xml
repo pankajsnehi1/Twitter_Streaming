@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbff927d-3dbf-4e6c-811e-2f0142b0a679" name="Default" comment="Initial commit to get sentiment scores 3 different ways and save them in csv files">
+    <list default="true" id="bbff927d-3dbf-4e6c-811e-2f0142b0a679" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph_plot.py" afterPath="$PROJECT_DIR$/graph_plot.py" />
     </list>
@@ -17,7 +17,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/untitled$sentiment_analysis_textblob.coverage" NAME="sentiment_analysis_textblob Coverage Results" MODIFIED="1491612814152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/untitled$graph_plot.coverage" NAME="graph_plot Coverage Results" MODIFIED="1491685691508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$graph_plot.coverage" NAME="graph_plot Coverage Results" MODIFIED="1491754629820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$table_results.coverage" NAME="table_results Coverage Results" MODIFIED="1489512794087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$new_twitter.coverage" NAME="new_twitter Coverage Results" MODIFIED="1491612833838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$Input.coverage" NAME="Input Coverage Results" MODIFIED="1468181654805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -85,8 +85,8 @@
       <file leaf-file-name="graph_plot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graph_plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="44" column="79" lean-forward="false" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
+            <state relative-caret-position="339">
+              <caret line="115" column="14" lean-forward="false" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -120,12 +120,16 @@
       <find>30</find>
       <find>31</find>
       <find>05</find>
+      <find>print</find>
+      <find>Twitter Sentiment</find>
+      <find>'Twitter Sentiment'</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>31</replace>
       <replace>14</replace>
       <replace>06</replace>
+      <replace>twitter_sentiment</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -589,7 +593,21 @@
       <option name="project" value="LOCAL" />
       <updated>1491613338140</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Now plots normalised graphs">
+      <created>1491685935490</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1491685935490</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Deleted unnecessary print">
+      <created>1491686164957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1491686164957</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -661,7 +679,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Amended to calculate sentiment scores in 3 different ways and save them in csv files" />
     <MESSAGE value="Initial commit to get sentiment scores 3 different ways and save them in csv files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit to get sentiment scores 3 different ways and save them in csv files" />
+    <MESSAGE value="Now plots normalised graphs" />
+    <MESSAGE value="Deleted unnecessary print" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted unnecessary print" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -909,8 +929,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graph_plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="44" column="79" lean-forward="false" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
+        <state relative-caret-position="339">
+          <caret line="115" column="14" lean-forward="false" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
           <folding />
         </state>
       </provider>
