@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbff927d-3dbf-4e6c-811e-2f0142b0a679" name="Default" comment="">
+    <list default="true" id="bbff927d-3dbf-4e6c-811e-2f0142b0a679" name="Default" comment="Initial commit">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graph_plot_textblob.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph_plot.py" afterPath="$PROJECT_DIR$/graph_plot.py" />
     </list>
@@ -17,7 +18,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/untitled$sentiment_analysis_textblob.coverage" NAME="sentiment_analysis_textblob Coverage Results" MODIFIED="1491612814152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/untitled$graph_plot.coverage" NAME="graph_plot Coverage Results" MODIFIED="1491754629820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$graph_plot.coverage" NAME="graph_plot Coverage Results" MODIFIED="1491771892920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$table_results.coverage" NAME="table_results Coverage Results" MODIFIED="1489512794087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$new_twitter.coverage" NAME="new_twitter Coverage Results" MODIFIED="1491612833838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$Input.coverage" NAME="Input Coverage Results" MODIFIED="1468181654805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -26,6 +27,7 @@
     <SUITE FILE_PATH="coverage/untitled$new_twitter_SA.coverage" NAME="new_twitter_SA Coverage Results" MODIFIED="1490274903099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$senti_eg_affinn.coverage" NAME="senti_eg_affinn Coverage Results" MODIFIED="1491676261198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$reading_txt.coverage" NAME="reading_txt Coverage Results" MODIFIED="1490141893999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$graph_plot_textblob.coverage" NAME="graph_plot_textblob Coverage Results" MODIFIED="1491771886943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$senti_eg.coverage" NAME="senti_eg Coverage Results" MODIFIED="1491577423246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$test_sentiment_analysis.coverage" NAME="test_sentiment_analysis Coverage Results" MODIFIED="1491072685916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$plot_eg.coverage" NAME="plot_eg Coverage Results" MODIFIED="1491202779715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -85,9 +87,28 @@
       <file leaf-file-name="graph_plot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graph_plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="115" column="14" lean-forward="false" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="99">
+              <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+              <folding>
+                <element signature="e#464#1100#0" expanded="false" />
+                <element signature="e#2080#2299#0" expanded="false" />
+                <element signature="e#2482#3636#0" expanded="false" />
+                <element signature="e#3783#3902#0" expanded="false" />
+                <marker date="1491771954000" expanded="false" signature="3982:4640" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graph_plot_textblob.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph_plot_textblob.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="112" column="29" lean-forward="false" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
+              <folding>
+                <element signature="e#2487#3641#0" expanded="false" />
+                <element signature="e#3788#3907#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,6 +179,7 @@
         <option value="$PROJECT_DIR$/new_twitter.py" />
         <option value="$PROJECT_DIR$/sentiment_analysis.py" />
         <option value="$PROJECT_DIR$/senti_eg_affinn.py" />
+        <option value="$PROJECT_DIR$/graph_plot_textblob.py" />
         <option value="$PROJECT_DIR$/graph_plot.py" />
       </list>
     </option>
@@ -212,7 +234,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tweets_sentiment_scores_affinn" />
+              <option name="myItemId" value="tweets_sentiment_scores_textblob" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -258,25 +280,6 @@
       <module name="untitled" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentiment_analysis_textblob.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="sentiment_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentiment_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -334,6 +337,25 @@
       <module name="untitled" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="graph_plot_textblob" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph_plot_textblob.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -523,18 +545,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.sentiment_analysis_textblob" />
-      <item index="1" class="java.lang.String" itemvalue="Python.sentiment_analysis" />
-      <item index="2" class="java.lang.String" itemvalue="Python.new_twitter" />
-      <item index="3" class="java.lang.String" itemvalue="Python.senti_eg_affinn" />
-      <item index="4" class="java.lang.String" itemvalue="Python.graph_plot" />
+      <item index="1" class="java.lang.String" itemvalue="Python.new_twitter" />
+      <item index="2" class="java.lang.String" itemvalue="Python.senti_eg_affinn" />
+      <item index="3" class="java.lang.String" itemvalue="Python.graph_plot" />
+      <item index="4" class="java.lang.String" itemvalue="Python.graph_plot_textblob" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.graph_plot" />
-        <item index="1" class="java.lang.String" itemvalue="Python.senti_eg_affinn" />
-        <item index="2" class="java.lang.String" itemvalue="Python.new_twitter" />
-        <item index="3" class="java.lang.String" itemvalue="Python.sentiment_analysis_textblob" />
-        <item index="4" class="java.lang.String" itemvalue="Python.sentiment_analysis" />
+        <item index="1" class="java.lang.String" itemvalue="Python.graph_plot_textblob" />
+        <item index="2" class="java.lang.String" itemvalue="Python.senti_eg_affinn" />
+        <item index="3" class="java.lang.String" itemvalue="Python.new_twitter" />
+        <item index="4" class="java.lang.String" itemvalue="Python.sentiment_analysis_textblob" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -607,7 +629,21 @@
       <option name="project" value="LOCAL" />
       <updated>1491686164957</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Modified to get the Mean Squared Error for graphs">
+      <created>1491754679292</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1491754679292</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated comments">
+      <created>1491754807139</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1491754807139</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -681,7 +717,9 @@
     <MESSAGE value="Initial commit to get sentiment scores 3 different ways and save them in csv files" />
     <MESSAGE value="Now plots normalised graphs" />
     <MESSAGE value="Deleted unnecessary print" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted unnecessary print" />
+    <MESSAGE value="Modified to get the Mean Squared Error for graphs" />
+    <MESSAGE value="Updated comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -695,19 +733,11 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="43" />
+      <option name="time" value="46" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/final_companies_with_twitter_sc.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@tesco_tweets.txt" />
     <entry file="file://$PROJECT_DIR$/table_results.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -927,11 +957,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Library/Python/3.4/lib/python/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="5455" column="0" lean-forward="false" selection-start-line="5455" selection-start-column="0" selection-end-line="5455" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_plot_textblob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="112" column="29" lean-forward="false" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
+          <folding>
+            <element signature="e#2487#3641#0" expanded="false" />
+            <element signature="e#3788#3907#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/graph_plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="115" column="14" lean-forward="false" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="99">
+          <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+          <folding>
+            <element signature="e#464#1100#0" expanded="false" />
+            <element signature="e#2080#2299#0" expanded="false" />
+            <element signature="e#2482#3636#0" expanded="false" />
+            <element signature="e#3783#3902#0" expanded="false" />
+            <marker date="1491771954000" expanded="false" signature="3982:4640" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
