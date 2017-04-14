@@ -12,6 +12,7 @@ import pandas as pd
 # initiating a var for future use
 twitter_sentiment = 'Twitter Sentiment'
 
+
 # gets the share price given company's code, start date and end date
 def get_share_price(company_code, start_date, end_date):
     try:
@@ -42,7 +43,6 @@ def get_senti_score(company_name):
             # checks if the name's score in every file it looks through in the dir
             if name == company_name:
                 score = float('%.1f' % round(float(score), 1))
-                print(score)
                 senti_score.append(score)
 
     return senti_score
@@ -97,9 +97,7 @@ def show_normalised_graph(company_name, company_code, start_date, end_date):
     plt.show()
 
 
-def get_mean_squared_error(company_name, company_code, start_date, end_date):
-
-    graph_df = normalised_graph_points(company_name, company_code, start_date, end_date)
+def get_mean_squared_error(graph_df, company_name):
 
     sum_of_difference = 0
     counter = 0
@@ -120,8 +118,35 @@ def get_mean_squared_error(company_name, company_code, start_date, end_date):
     print(mse)
 
 
-#show_normalised_graph('Aviva', 'AV.', '2017/03/14', '2017/04/06')
+# gets the MSE on x-axis
+def normalised_graph_points_on_xaxis(company_name, company_code, start_date, end_date):
+
+    graph_df = normalised_graph_points(company_name, company_code, start_date, end_date)
+    share_price_average = graph_df[[company_name]].mean()
+    twitter_sentiment_average = graph_df[[twitter_sentiment]].mean()
+
+    for index, row in graph_df.iterrows():
+        graph_df.set_value(index, company_name ,row[company_name] - share_price_average)
+        graph_df.set_value(index, twitter_sentiment, row[twitter_sentiment] - twitter_sentiment_average)
+
+    return graph_df
+
+
+def show_normalised_xaxis_graph(company_name, company_code, start_date, end_date):
+
+    graph_df = normalised_graph_points_on_xaxis(company_name, company_code, start_date, end_date)
+    graph_df.plot()
+    plt.axhline(0, color='black')
+    plt.show()
+
+# get_mean_squared_error(normalised_graph_points('Aviva', 'AV.', '2017/03/14', '2017/04/13'), 'Aviva')
+
+get_mean_squared_error(normalised_graph_points_on_xaxis('Aviva', 'AV.', '2017/03/14', '2017/04/13'), 'Aviva')
+
+# show_normalised_xaxis_graph('Aviva', 'AV.', '2017/03/14', '2017/04/13')
+
+# show_normalised_graph('Aviva', 'AV.', '2017/03/14', '2017/04/10')
 
 #plot_share_vs_sentiment('Aviva', 'AV.', '2017/03/14', '2017/04/06')
 
-get_mean_squared_error('ITV', 'ITV', '2017/03/14', '2017/04/06')
+# get_mean_squared_error('Aviva', 'AV.', '2017/03/14', '2017/04/10')

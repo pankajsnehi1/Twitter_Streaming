@@ -2,9 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbff927d-3dbf-4e6c-811e-2f0142b0a679" name="Default" comment="Initial commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graph_plot_textblob.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/3i Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Admiral Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Anglo American_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Antofagasta_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Ashtead Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/AstraZeneca_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Aviva_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/BAE Systems_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/BHP Billiton_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/BP_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/BT Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Barclays_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Barratt Developments_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/British Land Co_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Burberry Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/CRH_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Capita_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Carnival_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Centrica_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Coca-Cola HBC AG_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Compass Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/ConvaTec Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Diageo_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Direct Line Insurance Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Dixons Carphone_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Experian_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Fresnillo_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/GKN_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/GlaxoSmithKline_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Glencore_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/HSBC Holdings_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Hammerson_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Hargreaves Lansdown_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Hikma Pharmaceuticals_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/ITV_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Imperial Brands_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Informa_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/InterContinental Hotels Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Intertek Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Intu Properties_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Johnson Matthey_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Kingfisher_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Land Securities Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Legal &amp; General Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Lloyds Banking Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/London Stock Exchange Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Marks &amp; Spencer Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Mediclinic International_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Merlin Entertainments_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Micro Focus International_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Morrison (Wm) Supermarkets_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/National Grid_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Next_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Old Mutual_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Paddy Power Betfair_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Pearson_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Persimmon_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Provident Financial_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/RELX_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/RSA Insurance Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Reckitt Benckiser Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Rio Tinto_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Rolls-Royce Holdings_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Royal Bank of Scotland Group (The)_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Royal Dutch Shell_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Royal Mail_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/SSE_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Sage Group (The)_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Sainsbury (J)_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Schroders_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Severn Trent_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Shire_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Sky_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Smith &amp; Nephew_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Smiths Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Smurfit Kappa Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Standard Chartered_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Standard Life_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/TUI AG_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Taylor Wimpey_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Tesco_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Unilever_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/United Utilities Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Vodafone Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/WPP_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Whitbread_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Wolseley_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Worldpay Group_tweets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/easyJet_tweets.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph_plot.py" afterPath="$PROJECT_DIR$/graph_plot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph_plot_textblob.py" afterPath="$PROJECT_DIR$/graph_plot_textblob.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new_twitter.py" afterPath="$PROJECT_DIR$/new_twitter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sentiment_analysis_affinn.py" afterPath="$PROJECT_DIR$/sentiment_analysis_affinn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sentiment_analysis_textblob.py" afterPath="$PROJECT_DIR$/sentiment_analysis_textblob.py" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,17 +109,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/untitled$sentiment_analysis_textblob.coverage" NAME="sentiment_analysis_textblob Coverage Results" MODIFIED="1491612814152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/untitled$graph_plot.coverage" NAME="graph_plot Coverage Results" MODIFIED="1491771892920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$sentiment_analysis_textblob.coverage" NAME="sentiment_analysis_textblob Coverage Results" MODIFIED="1492178937350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$graph_plot.coverage" NAME="graph_plot Coverage Results" MODIFIED="1492196366128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$sentiment_analysis_affinn.coverage" NAME="sentiment_analysis_affinn Coverage Results" MODIFIED="1492178896507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$table_results.coverage" NAME="table_results Coverage Results" MODIFIED="1489512794087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/untitled$new_twitter.coverage" NAME="new_twitter Coverage Results" MODIFIED="1491612833838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$new_twitter.coverage" NAME="new_twitter Coverage Results" MODIFIED="1492177137480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$Input.coverage" NAME="Input Coverage Results" MODIFIED="1468181654805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$ex_twitter.coverage" NAME="ex_twitter Coverage Results" MODIFIED="1490276946541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$graph_plot_eg.coverage" NAME="graph_plot_eg Coverage Results" MODIFIED="1491216313240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$new_twitter_SA.coverage" NAME="new_twitter_SA Coverage Results" MODIFIED="1490274903099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$senti_eg_affinn.coverage" NAME="senti_eg_affinn Coverage Results" MODIFIED="1491676261198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$reading_txt.coverage" NAME="reading_txt Coverage Results" MODIFIED="1490141893999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/untitled$graph_plot_textblob.coverage" NAME="graph_plot_textblob Coverage Results" MODIFIED="1491771886943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$graph_plot_textblob.coverage" NAME="graph_plot_textblob Coverage Results" MODIFIED="1492196593472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$test_preanalysed_data.coverage" NAME="test_preanalysed_data Coverage Results" MODIFIED="1492183956978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$senti_eg.coverage" NAME="senti_eg Coverage Results" MODIFIED="1491577423246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$test_sentiment_analysis.coverage" NAME="test_sentiment_analysis Coverage Results" MODIFIED="1491072685916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$plot_eg.coverage" NAME="plot_eg Coverage Results" MODIFIED="1491202779715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -57,8 +151,8 @@
       <file leaf-file-name="new_twitter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new_twitter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="69" column="17" lean-forward="false" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+            <state relative-caret-position="96">
+              <caret line="73" column="61" lean-forward="false" selection-start-line="73" selection-start-column="61" selection-end-line="73" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -67,34 +161,37 @@
       <file leaf-file-name="sentiment_analysis_affinn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sentiment_analysis_affinn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="14" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="103" selection-end-column="37" />
+            <state relative-caret-position="208">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="senti_eg_affinn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/senti_eg_affinn.py">
+      <file leaf-file-name="test_preanalysed_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_preanalysed_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="64" column="30" lean-forward="true" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+            <state relative-caret-position="346">
+              <caret line="52" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="87" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graph_plot.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="graph_plot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph_plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+            <state relative-caret-position="342">
+              <caret line="153" column="68" lean-forward="false" selection-start-line="153" selection-start-column="68" selection-end-line="153" selection-end-column="68" />
               <folding>
                 <element signature="e#464#1100#0" expanded="false" />
-                <element signature="e#2080#2299#0" expanded="false" />
-                <element signature="e#2482#3636#0" expanded="false" />
-                <element signature="e#3783#3902#0" expanded="false" />
-                <marker date="1491771954000" expanded="false" signature="3982:4640" ph="..." />
+                <element signature="e#1191#1864#0" expanded="false" />
+                <element signature="e#2051#2270#0" expanded="false" />
+                <element signature="e#2453#3607#0" expanded="false" />
+                <element signature="e#3754#3873#0" expanded="false" />
+                <element signature="e#3933#4495#0" expanded="false" />
+                <element signature="e#4616#5086#0" expanded="false" />
+                <element signature="e#5177#5339#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -103,21 +200,27 @@
       <file leaf-file-name="graph_plot_textblob.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph_plot_textblob.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="112" column="29" lean-forward="false" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
+            <state relative-caret-position="128">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <element signature="e#2487#3641#0" expanded="false" />
-                <element signature="e#3788#3907#0" expanded="false" />
+                <element signature="e#464#1100#0" expanded="false" />
+                <element signature="e#1191#1870#0" expanded="false" />
+                <element signature="e#2057#2276#0" expanded="false" />
+                <element signature="e#2459#3613#0" expanded="false" />
+                <element signature="e#3760#3879#0" expanded="false" />
+                <element signature="e#3939#4501#0" expanded="false" />
+                <element signature="e#4622#5092#0" expanded="false" />
+                <element signature="e#5183#5345#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sentiment_analysis_textblob.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sentiment_analysis_textblob.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sentiment_analysis_textblob.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-147">
-              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="240">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -141,16 +244,23 @@
       <find>30</find>
       <find>31</find>
       <find>05</find>
-      <find>print</find>
       <find>Twitter Sentiment</find>
       <find>'Twitter Sentiment'</find>
+      <find>10</find>
+      <find>11</find>
+      <find>12</find>
+      <find>/pos</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>31</replace>
       <replace>14</replace>
       <replace>06</replace>
+      <replace>11</replace>
+      <replace>12</replace>
       <replace>twitter_sentiment</replace>
+      <replace>/neg</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -175,10 +285,12 @@
         <option value="$PROJECT_DIR$/plot_eg.py" />
         <option value="$PROJECT_DIR$/graph_plot_eg.py" />
         <option value="$PROJECT_DIR$/senti_eg.py" />
-        <option value="$PROJECT_DIR$/sentiment_analysis_textblob.py" />
-        <option value="$PROJECT_DIR$/new_twitter.py" />
         <option value="$PROJECT_DIR$/sentiment_analysis.py" />
         <option value="$PROJECT_DIR$/senti_eg_affinn.py" />
+        <option value="$PROJECT_DIR$/new_twitter.py" />
+        <option value="$PROJECT_DIR$/sentiment_analysis_affinn.py" />
+        <option value="$PROJECT_DIR$/sentiment_analysis_textblob.py" />
+        <option value="$PROJECT_DIR$/test_preanalysed_data.py" />
         <option value="$PROJECT_DIR$/graph_plot_textblob.py" />
         <option value="$PROJECT_DIR$/graph_plot.py" />
       </list>
@@ -245,7 +357,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
@@ -265,7 +377,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.graph_plot">
+  <component name="RunManager" selected="Python.graph_plot_textblob">
+    <configuration default="false" name="sentiment_analysis_affinn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentiment_analysis_affinn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
     <configuration default="false" name="sentiment_analysis_textblob" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,7 +416,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="new_twitter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="test_preanalysed_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -298,26 +429,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="untitled" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new_twitter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="senti_eg_affinn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/senti_eg_affinn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_preanalysed_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -544,19 +656,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.sentiment_analysis_textblob" />
-      <item index="1" class="java.lang.String" itemvalue="Python.new_twitter" />
-      <item index="2" class="java.lang.String" itemvalue="Python.senti_eg_affinn" />
+      <item index="0" class="java.lang.String" itemvalue="Python.sentiment_analysis_affinn" />
+      <item index="1" class="java.lang.String" itemvalue="Python.sentiment_analysis_textblob" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test_preanalysed_data" />
       <item index="3" class="java.lang.String" itemvalue="Python.graph_plot" />
       <item index="4" class="java.lang.String" itemvalue="Python.graph_plot_textblob" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.graph_plot" />
-        <item index="1" class="java.lang.String" itemvalue="Python.graph_plot_textblob" />
-        <item index="2" class="java.lang.String" itemvalue="Python.senti_eg_affinn" />
-        <item index="3" class="java.lang.String" itemvalue="Python.new_twitter" />
-        <item index="4" class="java.lang.String" itemvalue="Python.sentiment_analysis_textblob" />
+        <item index="0" class="java.lang.String" itemvalue="Python.graph_plot_textblob" />
+        <item index="1" class="java.lang.String" itemvalue="Python.graph_plot" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_preanalysed_data" />
+        <item index="3" class="java.lang.String" itemvalue="Python.sentiment_analysis_textblob" />
+        <item index="4" class="java.lang.String" itemvalue="Python.sentiment_analysis_affinn" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -643,7 +755,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491754807139</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Initial commit">
+      <created>1491771958767</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1491771958767</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -659,13 +778,13 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3368336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23344104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45479453" sideWeight="0.52584815" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33561644" sideWeight="0.47415185" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33150685" sideWeight="0.47415185" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -679,6 +798,27 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45479453" sideWeight="0.52584815" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40547946" sideWeight="0.47415185" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3368336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31506848" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -719,7 +859,8 @@
     <MESSAGE value="Deleted unnecessary print" />
     <MESSAGE value="Modified to get the Mean Squared Error for graphs" />
     <MESSAGE value="Updated comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated comments" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -733,19 +874,11 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="46" />
+      <option name="time" value="50" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/table_results.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SA.ipynb" />
     <entry file="file://$PROJECT_DIR$/Input.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -785,13 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AFINN-111.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1872">
@@ -820,13 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/companies_with_stock_code.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -917,38 +1036,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sentiment_analysis.py" />
-    <entry file="file://$PROJECT_DIR$/new_twitter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="69" column="17" lean-forward="false" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentiment_analysis_affinn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="103" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentiment_analysis_textblob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/senti_eg_affinn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="64" column="30" lean-forward="true" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -965,28 +1052,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph_plot_textblob.py">
+    <entry file="file://$PROJECT_DIR$/senti_eg_affinn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="112" column="29" lean-forward="false" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
-          <folding>
-            <element signature="e#2487#3641#0" expanded="false" />
-            <element signature="e#3788#3907#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-393">
+          <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_twitter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="73" column="61" lean-forward="false" selection-start-line="73" selection-start-column="61" selection-end-line="73" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_preanalysed_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="52" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="87" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment_analysis_affinn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/companies_with_stock_code.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graph_plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+        <state relative-caret-position="342">
+          <caret line="153" column="68" lean-forward="false" selection-start-line="153" selection-start-column="68" selection-end-line="153" selection-end-column="68" />
           <folding>
             <element signature="e#464#1100#0" expanded="false" />
-            <element signature="e#2080#2299#0" expanded="false" />
-            <element signature="e#2482#3636#0" expanded="false" />
-            <element signature="e#3783#3902#0" expanded="false" />
-            <marker date="1491771954000" expanded="false" signature="3982:4640" ph="..." />
+            <element signature="e#1191#1864#0" expanded="false" />
+            <element signature="e#2051#2270#0" expanded="false" />
+            <element signature="e#2453#3607#0" expanded="false" />
+            <element signature="e#3754#3873#0" expanded="false" />
+            <element signature="e#3933#4495#0" expanded="false" />
+            <element signature="e#4616#5086#0" expanded="false" />
+            <element signature="e#5177#5339#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_plot_textblob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#464#1100#0" expanded="false" />
+            <element signature="e#1191#1870#0" expanded="false" />
+            <element signature="e#2057#2276#0" expanded="false" />
+            <element signature="e#2459#3613#0" expanded="false" />
+            <element signature="e#3760#3879#0" expanded="false" />
+            <element signature="e#3939#4501#0" expanded="false" />
+            <element signature="e#4622#5092#0" expanded="false" />
+            <element signature="e#5183#5345#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment_analysis_textblob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
