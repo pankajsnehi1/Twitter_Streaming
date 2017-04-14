@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbff927d-3dbf-4e6c-811e-2f0142b0a679" name="Default" comment="Initial commit">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graph_plot_affinn.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graph_plot.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/3i Group_tweets.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Admiral Group_tweets.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Anglo American_tweets.txt" afterPath="" />
@@ -92,8 +94,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/Worldpay Group_tweets.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tweets_from_17-Mar/easyJet_tweets.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph_plot.py" afterPath="$PROJECT_DIR$/graph_plot.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph_plot_textblob.py" afterPath="$PROJECT_DIR$/graph_plot_textblob.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new_twitter.py" afterPath="$PROJECT_DIR$/new_twitter.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sentiment_analysis_affinn.py" afterPath="$PROJECT_DIR$/sentiment_analysis_affinn.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sentiment_analysis_textblob.py" afterPath="$PROJECT_DIR$/sentiment_analysis_textblob.py" />
@@ -178,25 +178,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graph_plot.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph_plot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="153" column="68" lean-forward="false" selection-start-line="153" selection-start-column="68" selection-end-line="153" selection-end-column="68" />
-              <folding>
-                <element signature="e#464#1100#0" expanded="false" />
-                <element signature="e#1191#1864#0" expanded="false" />
-                <element signature="e#2051#2270#0" expanded="false" />
-                <element signature="e#2453#3607#0" expanded="false" />
-                <element signature="e#3754#3873#0" expanded="false" />
-                <element signature="e#3933#4495#0" expanded="false" />
-                <element signature="e#4616#5086#0" expanded="false" />
-                <element signature="e#5177#5339#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="graph_plot_textblob.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph_plot_textblob.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -216,12 +197,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sentiment_analysis_textblob.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sentiment_analysis_textblob.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sentiment_analysis_textblob.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graph_plot_affinn.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graph_plot_affinn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -762,7 +755,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491771958767</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated to include the Mean Squared Error when graph is on the x-axis and modified the get_mean_squared_error function to ensure it being used in case of different dataframes being inputted">
+      <created>1492197263920</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1492197263920</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -782,9 +782,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45479453" sideWeight="0.52584815" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33150685" sideWeight="0.47415185" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33150685" sideWeight="0.47415185" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -860,7 +860,8 @@
     <MESSAGE value="Modified to get the Mean Squared Error for graphs" />
     <MESSAGE value="Updated comments" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Updated to include the Mean Squared Error when graph is on the x-axis and modified the get_mean_squared_error function to ensure it being used in case of different dataframes being inputted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to include the Mean Squared Error when graph is on the x-axis and modified the get_mean_squared_error function to ensure it being used in case of different dataframes being inputted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -879,7 +880,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SA.ipynb" />
     <entry file="file://$PROJECT_DIR$/Input.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1104,16 +1104,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="153" column="68" lean-forward="false" selection-start-line="153" selection-start-column="68" selection-end-line="153" selection-end-column="68" />
-          <folding>
-            <element signature="e#464#1100#0" expanded="false" />
-            <element signature="e#1191#1864#0" expanded="false" />
-            <element signature="e#2051#2270#0" expanded="false" />
-            <element signature="e#2453#3607#0" expanded="false" />
-            <element signature="e#3754#3873#0" expanded="false" />
-            <element signature="e#3933#4495#0" expanded="false" />
-            <element signature="e#4616#5086#0" expanded="false" />
-            <element signature="e#5177#5339#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1139,6 +1130,16 @@
         <state relative-caret-position="240">
           <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_plot_affinn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
